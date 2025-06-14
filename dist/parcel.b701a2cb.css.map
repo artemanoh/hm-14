@@ -1,1 +1,0 @@
-{"mappings":"ACAA","sources":["parcel.b701a2cb.css","src/style.css"],"sourcesContent":["body {\n  background-color: #58c458;\n}\n/*# sourceMappingURL=parcel.b701a2cb.css.map */\n","body{\r\n    background-color: rgb(88, 196, 88);\r\n}"],"names":[],"version":3,"file":"parcel.b701a2cb.css.map"}

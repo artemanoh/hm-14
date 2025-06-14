@@ -1,3 +1,102 @@
-body{
-    background-color: rgb(88, 196, 88);
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
 }
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+#search-box {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+#search-box:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 8px rgba(41, 128, 185, 0.5);
+}
+
+
+
+.country-list {
+  list-style: none;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.country-list li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.country-list li:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.country-info {
+  max-width: 400px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 20px;
+  color: #2c3e50;
+}
+
+.country-info h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.country-info p {
+  margin: 6px 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.country-info img {
+  display: block;
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.country-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.country-list::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+  border-radius: 4px;
+}
+
+.country-list::-webkit-scrollbar-track {
+  background: #f0f4f8;
+}
+
